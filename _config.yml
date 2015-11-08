@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+title:       KayvanNj
+email:       kayvan.najafzadeh@gmail.com
+author:      Kayvan Najafzadeh
+description: "A description"
+baseurl:     "this is base url"
+url:         "http://kayvannj.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -29,12 +29,12 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: kayvannj
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
 google_plus_id:
-linkedin_username:
+linkedin_username: kayvannj
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -48,7 +48,7 @@ share_text: 'Share this post!'
 share_facebook: false
 share_twitter: false
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -63,3 +63,4 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+gems: ['jekyll-paginate']
